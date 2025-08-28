@@ -44,7 +44,7 @@ def get_prediction():
 
     ##Load the  machine learning model
 
-    with open("model/model.pkl", "rb") as obj:
+    with open("model.pkl", "rb") as obj:
         model = pickle.load(obj) 
 
     #make prediction
